@@ -1,0 +1,84 @@
+.game-title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.game-area{
+    margin:30px auto;
+    background: blue;
+    position: relative;
+    overflow: hidden;
+    width: 550px;
+    height: 444px;
+    border: 2px solid #ddd;
+}
+
+.game-tile-classic{
+    position: absolute;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: darkblue url(images/title.png) center center no-repeat;
+}
+
+.game-tile-classic:hover {
+    background-color:#5342f4;
+}
+
+.game-tile-troll{
+    position: absolute;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: darkblue url(images/troll.png) center center no-repeat;
+}
+
+.game-tile-troll:hover {
+    background-color:#5342f4;
+}
+
+.game-score{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+
+.game-star{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container > button.button,
+    input[type=button].button,
+    input[type=submit].button{
+    padding: 0.8em 3em;
+    color: red;
+    border: 0;
+    border-radius: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 25px auto;
+    display: block;
+}
+
+.button.game-start{
+    background: chartreuse;
+}
+
+.button.game-change-mode{
+    background: black;
+}
+
+
+
